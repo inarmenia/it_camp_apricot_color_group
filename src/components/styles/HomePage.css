@@ -1,0 +1,15 @@
+body {
+  color: white;
+  background-color: #1d1d1f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+}
+.introduction {
+  text-align: center;
+  padding-top: 20px;
+}
+.books {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}

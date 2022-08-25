@@ -1,0 +1,45 @@
+#header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5% 3%;
+	background-color: #1d1d1ffc;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	overflow: hidden;
+	z-index: 100;
+}
+
+.itBookLogo {
+	width: 120px;
+	cursor: pointer;
+}
+
+.navBarButtons {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.navBarButtons p {
+	font-size: 1.5rem;
+}
+
+.navBarButtons p:hover {
+	color: #f78733 !important;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+a {
+	color: white !important;
+}
+
+@media screen and (max-width: 524px) {
+	#header {
+		flex-direction: column;
+		gap: 1rem;
+		border-bottom: 1px solid white;
+	}
+}

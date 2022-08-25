@@ -1,0 +1,73 @@
+.bigProduct {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-bottom: 1px solid white;
+	padding: 5%;
+}
+
+.bigProduct .main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+	color: white;
+	background-color: #1d1d1f;
+	margin: auto;
+	gap: 0.5rem;
+}
+
+.textOfTheBigProduct {
+	width: 60%;
+}
+
+.imageOfTheBigProduct {
+	width: 39%;
+}
+
+.bigProductImage {
+	width: 85%;
+}
+
+.hoverEffects {
+	font-size: 2.5rem;
+	margin-top: 1rem;
+}
+
+.hoverEffects:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #f78733 !important;
+}
+
+h3:nth-child(1) {
+	font-size: 2.5rem;
+}
+h3:nth-child(2) {
+	font-size: 2rem;
+}
+
+hr {
+	border: solid 1px whitesmoke;
+	margin: 1rem 0 1rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.bigProductImage {
+		width: 100%;
+	}
+	.textOfTheBigProduct {
+		width: 100%;
+	}
+	.imageOfTheBigProduct {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 524px) {
+	.imageOfTheBigProduct {
+		width: 100%;
+	}
+}
